@@ -39,6 +39,8 @@ def setup_h2ollmstudio():
         os.environ["H2O_WAVE_LISTEN"] = f":{port}"
         os.environ["H2O_WAVE_ADDRESS"] = f"http://127.0.0.1:{port}/"
         os.environ["H2O_WAVE_BASE_URL"] = "/h2ollmstudio/"
+        os.environ["H2O_WAVE_DEBUG"] = "true"
+        
         return ["make", "wave"]
 
     return {
