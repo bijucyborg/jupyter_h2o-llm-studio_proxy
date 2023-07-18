@@ -51,5 +51,5 @@ def setup_h2ollmstudio():
             "icon_path": _get_icon_path()
         },
         "absolute_url": True,
-        "new_browser_tab": True,
+        "new_browser_tab": False,
     }
